@@ -1,0 +1,29 @@
+# ChatGPT project mirror metadata and synced reference material
+/AGENTS.md
+/sources/
+/.codex/
+/.agents/
+
+# Local app data and validation artifacts
+.data/
+.artifacts/
+*.sqlite3
+*.sqlite3-*
+*.sqlite
+*.sqlite-*
+/prototype/evidence/*
+!/prototype/evidence/README.md
+
+# Build output and caches
+build/
+dist/
+.build/
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+
+# Local environment settings
+.env
+.env.*
+!.env.example

@@ -1,0 +1,3 @@
+License notices distributed by python-build-standalone release 20260901.
+https://github.com/astral-sh/python-build-standalone/tree/20260901
+This collection also includes notices for components used by other runtime variants.

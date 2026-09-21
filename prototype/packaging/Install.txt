@@ -1,0 +1,39 @@
+North Star 0.1.1 — prototype
+Apple Silicon Mac, macOS 14 or newer
+
+1. Quit any running copy of North Star.
+2. Drag North Star into Applications.
+3. Eject this disk image, then open North Star from Applications.
+4. Click the sparkle in your menu bar to return to your projects.
+   If it is hidden, press Control–Option–N or open North Star from Spotlight.
+   Both open the app in a panel below the menu bar.
+
+Only one copy of North Star runs at a time. Opening another copy brings the
+existing copy forward. Quit the old app before replacing it with this update.
+
+This prototype is ad-hoc signed and is not Apple-notarized. If macOS blocks
+opening it, use System Settings > Privacy & Security > Open Anyway after
+trying to open the installed app. No system security setting needs disabling.
+Apple's instructions: https://support.apple.com/en-us/102445
+
+Python is included. Xcode and a separate Python installation are not needed.
+Your projects are stored locally in:
+~/Library/Application Support/North Star
+No personal project database is included in this installer.
+
+This installed copy starts with a fresh store, separate from the development
+checkout. It does not automatically import development data or replace any
+existing agent connections. Keep the original checkout if you still use it.
+
+Open Settings > Set up an agent to connect an installed Codex or Claude Code
+client. Copy the project instructions into its rules file. Start a new agent
+session or reload MCP after setup. Install the app before connecting agents,
+and keep it at the same location afterwards.
+
+If a previous North Star MCP entry already points to a development checkout,
+the app will report a conflict. Remove that entry in the client's settings
+only when you are ready to use this installed copy and its separate store,
+then click Connect again. Other client settings are preserved.
+
+Automatic thought sorting optionally uses your installed, signed-in Codex CLI.
+Voice capture requests microphone and speech permissions when first used.
