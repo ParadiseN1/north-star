@@ -8,7 +8,7 @@ import plistlib
 import shutil
 import subprocess
 
-VERSION = "0.1.1"
+VERSION = "0.0.1"
 PYTHON_URL = ("https://github.com/astral-sh/python-build-standalone/releases/download/20260901/"
               "cpython-3.12.14%2B20260901-aarch64-apple-darwin-install_only_stripped.tar.gz")
 PYTHON_SHA256 = "81a359f1cfadd4da11766534c5913791cea55f26e1bb902cacd2a531bb1e4b2b"
@@ -86,7 +86,7 @@ def build(release=False):
                     ignore=shutil.ignore_patterns("__pycache__", "*.pyc", ".DS_Store"))
     info = {
         "CFBundleName": "North Star", "CFBundleDisplayName": "North Star",
-        "CFBundleIdentifier": "local.northstar.prototype", "CFBundleVersion": "3",
+        "CFBundleIdentifier": "local.northstar.prototype", "CFBundleVersion": "4",
         "CFBundleIconFile": "AppIcon.icns",
         "CFBundleShortVersionString": VERSION, "CFBundleExecutable": "NorthStar",
         "CFBundlePackageType": "APPL", "LSMinimumSystemVersion": "14.0", "LSUIElement": True,

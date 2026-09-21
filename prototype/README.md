@@ -21,7 +21,7 @@ The development build uses SwiftUI, AppKit, Speech, AVFoundation, and the system
 /usr/bin/python3 scripts/package.py
 ```
 
-This creates `dist/North-Star-0.1.1-arm64.dmg` and a SHA-256 checksum. Drag the app into Applications and launch it there. It requires an Apple Silicon Mac with macOS 14 or later. This prototype is ad-hoc signed, not Apple-notarized; installation instructions are included in the image.
+This creates `dist/North-Star-0.0.1-arm64.dmg` and a SHA-256 checksum. Drag the app into Applications and launch it there. It requires an Apple Silicon Mac with macOS 14 or later. This prototype is ad-hoc signed, not Apple-notarized; installation instructions are included in the image.
 
 The release bundles a checksum-pinned [standalone CPython runtime](https://github.com/astral-sh/python-build-standalone/releases/tag/20260901), its license notices, and the backend. It needs no separate Python or Xcode installation. The initial packaging build downloads the runtime; subsequent builds reuse the verified local cache. `build.py --release` builds only the portable app in `build/release/`.
 

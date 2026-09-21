@@ -1,4 +1,4 @@
-North Star 0.1.1 — prototype
+North Star 0.0.1 prototype
 Apple Silicon Mac, macOS 14 or newer
 
 1. Quit any running copy of North Star.
